@@ -1,0 +1,36 @@
+h2 {
+    background-color: #eee;
+    border-right: red solid 3px;
+    border-left: red solid 3px;
+    border-radius: 30px;
+    padding: 14px;
+    min-width: 250px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h2 a {
+    color: red;
+}
+
+.img-a {
+    background-color: #eee;
+    border-right: red solid 3px;
+    border-left: red solid 3px;
+    border-radius: 30px;
+    padding: 14px;
+    min-width: 250px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Log</title>
+</head>
+
+<body>
+    <form action="T1.html">
+        <div>
+            <div>
+                <label for="user">اسمك</label>
+                <input type="text" name="user" id="user" required minlength="3" maxlength="10">
+            </div>
+            <br>
+            <div>
+                <label for="mail">بريدك الاكتروني</label>
+                <input type="email" name="mail" id="mail" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">رمزك السري</label>
+                <input type="password" name="pass" id="pass" required minlength="5" maxlength="15">
+                <h5>*لا تعطي هذا الرمز لاحد*</h5>
+            </div>
+            <div>
+                <label for="date">تاريخ ميلادك</label>
+                <input type="date" name="date" id="date" required min="1980-01-01" max="2022-12-31">
+            </div>
+            <br>
+            <div>
+                <label for="game">ما كثر نوع تفضلهوا في العاب</label>
+                <input list="game" name="game" required>
+                <datalist id="game">
+                    <option value="العاب حرب">
+                    <option value="العاب انميشن">
+                    <option value="العاب كوميديا">
+                    <option value="العاب استرتجيات">
+                    <option value="العاب تفكير">
+                    <option value="العاب GTA">
+                    <option value="العاب سوبر سيل">
+                    <option value="العاب باتل رويال">
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <label for="Your country">بلدك</label>
+                <input list="Your country" name="Your country" required>
+                <datalist id="Your country">
+                    <option value="مصر">
+                    <option value="الجزائر">
+                    <option value="الكويت">
+                    <option value="الامارات">
+                    <option value="تركية">
+                    <option value="فرنسا">
+                    <option value="امريكا">
+                    <option value="لبيا">
+                    <option value="العراق">
+                    <option value="لا افضل الاجابة">
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="save" id="save" value="تسجيل">
+                <input type="reset" name="reset" id="reset" value="مسح">
+            </div>
+            <br>
+            <a href="log-in-user.html">لدي حساب بالفعل</a>
+        </div>
+    </form>
+</body>
+
+</html>
